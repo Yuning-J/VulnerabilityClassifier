@@ -1,0 +1,3 @@
+CVE_ID,PublishTime,ModifyTime,Report,CVSSV3,AttackVector,AttackComplexity,PrivilegesRequired,UserInteraction,Scope,ConfidentialityImpact,IntegrityImpact,AvailabilityImpact
+CVE-2003-1604,2016-05-02T10:59Z,2016-12-01T02:59Z,"The redirect_target function in net/ipv4/netfilter/ipt_REDIRECT.c in the Linux kernel before 2.6.0 allows remote attackers to cause a denial of service (NULL pointer dereference and OOPS) by sending packets to an interface that has a 0.0.0.0 IP address, a related issue to CVE-2015-8787.",7.5,NETWORK,LOW,NONE,NONE,UNCHANGED,NONE,NONE,HIGH
+CVE-2003-1605,2018-08-23T19:29Z,2018-10-15T18:20Z,curl 7.x before 7.10.7 sends CONNECT proxy credentials to the remote server.,7.5,NETWORK,LOW,NONE,NONE,UNCHANGED,HIGH,NONE,NONE
